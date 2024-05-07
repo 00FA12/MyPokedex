@@ -1,0 +1,132 @@
+#loadingIndicator{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+
+}
+
+#recComp {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    transition: all 0.2s;
+
+}
+
+#recComp:hover {
+    scale: 1.10;
+
+    #pkmImg {
+        scale: 1.3;
+        transition: all 0.2s;
+    }
+
+}
+
+#imgBackground {
+    background-color: white;
+    border-radius: 100%;
+}
+
+#pkmImg {
+    width: 100%;
+    height: auto;
+}
+
+#pokeText {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    #img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #img {
+        width: 200px;
+    }
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+#grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#banner {
+    /* padding: 10px; */
+    text-align: center;
+    width: 100%;
+    max-width: 485px;
+    min-width: 180px;
+    top: 15%;
+    border-radius: 20px;
+    height: fit-content;
+    position: sticky;
+}
+
+#bannerInfo {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#selImgBackground {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: inline-flex;
+    background-color: white;
+}
+
+#selImg {
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    flex: content;
+}
+
+#selImgBackground:hover {
+    #selImg {
+        scale: 1.34;
+        transition: all 0.2s;
+    }
+}
+
+p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.button {
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+}
